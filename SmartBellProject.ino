@@ -10,8 +10,8 @@ const int buzzerPin = 33;
 const int trigPin = 5;
 const int echoPin = 18;
 
-const char* ssid = "FiberHGW_TP22B4_2.4GHz";
-const char* password = "LzX4deWP";
+const char* ssid = "your wi-fi name";
+const char* password = "your wi-fi password";
 
 AsyncWebServer server(80);
 
