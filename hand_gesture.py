@@ -11,19 +11,14 @@ import sys
 sys.path.append("lib")
 from arduino_iot_cloud import ArduinoCloudClient
 
-
-ESP32_IP = "http://192.168.1.193"
-DEVICE_ID = "1fdd7445-1d49-4ef2-9107-c04d5724ffbc"
-SECRET_KEY = "g0V!G9ruxuPZkjiA8kRyt#g2!"
+ESP32_IP = "your esp32's ip address"
+DEVICE_ID = "your device ID"
+SECRET_KEY = "your device key"
 
 KNOWN_USERS = {
-    # "user1": ["thumb", "thumb_index", "index_middle", "reset"],
-    # "user2": ["thumb", "thumb_pinky", "index", "reset"],
-    # "user3": ["index", "index_middle", "reset"],
-    "user1": ["thumb","reset"],
+    "user1": ["thumb", "thumb_index", "index_middle", "reset"],
     "user2": ["index", "reset"],
     "user3": ["index", "index_middle", "reset"],
-
 }
 
 USER_LEDS = {
